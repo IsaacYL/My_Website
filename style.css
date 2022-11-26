@@ -1,0 +1,330 @@
+html {
+    -webkit-box-shadow: none;
+    -moz-box-shadow: none;
+    box-shadow: none;
+}
+
+body {
+    overflow-x: hidden;
+    margin: 0;
+    background-color: #2d529e;
+}
+
+.bodyprojects {
+    background-color: #2d529e;
+}
+
+.bodyservice{
+    background-color: #2d529e;
+}
+
+canvas {
+    position: absolute;
+    z-index: -1;
+    top: 0;
+}
+
+.Test {
+    visibility: hidden;
+    width: 10vw;
+    height: 10vh;
+    background-color: black;
+    position: absolute;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 2rem 3rem;
+    height: 8vmin;
+}
+
+.logo {
+    height: 7vmin;
+    background-color: white;
+    width: 10vw;
+}
+
+.divbtn {
+    display: flex;
+    justify-content: space-between;
+}
+
+.btn {
+    font-size: 1em;
+    border-radius: 2rem;
+    border-color: #F2F2F2;
+    border-style: solid;
+    border-width: 0.25rem;
+
+    background-color: #00000000;
+}
+
+.btn:hover,
+.indirecthover:hover~.btn {
+    color: black;
+    border-color: black;
+    background-color: #F2F2F2;
+}
+
+.up {
+    padding: 2vmin 4vmin;
+    margin-left: 1rem;
+}
+
+.right {
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+    width: 100vw;
+    height: 65vh;
+}
+
+h1 {
+    margin-right: 20vmin;
+    text-transform: uppercase;
+}
+
+.footerhome {
+    padding: 2rem 0rem;
+    width: 100%;
+}
+
+h2 {
+    margin: 0;
+}
+
+.down {
+    padding: 0.5rem 1rem;
+    margin-left: 1rem;
+}
+
+.border {
+    margin: 0rem 3rem;
+    display: flex;
+    align-items: center;
+}
+
+a {
+    text-decoration: none;
+}
+
+.title {
+    font-family: 'Righteous', cursive;
+    width: 20rem;
+    color: white;
+    font-size: 5vmin;
+}
+
+.btntext {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+    color: white;
+    font-size: 2vmin;
+}
+
+footer {
+    position: absolute;
+    display: flex;
+    justify-content: space-between;
+    bottom: 0;
+}
+
+.footerprojects {
+    top: 120vmax;
+    z-index: -1;
+    background-image: url("./assets/Footerlogo.svg");
+    background-repeat: no-repeat;
+    background-size: 200vmin;
+    background-position: right bottom;
+    height: 150vh;
+    width: 100vw;
+    justify-content: flex-end;
+    align-items: flex-end;
+}
+
+.footerproject{
+    top: 280vh;
+    height: 150vh;
+    width: 100vw;
+    justify-content: flex-end;
+    align-items: flex-end;
+}
+
+.mentions {
+    display: flex;
+    width: 50vw;
+    justify-content: space-between;
+    margin-right: 10vmin;
+    margin-bottom: 5vh;
+}
+
+.mentionsdeux {
+    display: flex;
+    width: 100vw;
+    justify-content: space-around;
+    margin-right: 10vmin;
+    margin-bottom: 2vh;
+}
+
+h6 {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+    color: white;
+    font-size: 1.7vmin;
+}
+
+.wrapper {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 10vh 3vw;
+    grid-auto-rows: calc((100vw - 6vw - 6rem) * 0.5);
+    padding: 6vw;
+}
+
+.case {
+    background-color: #F2F2F2;
+    padding: 4vmax;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+h3 {
+    margin: 0;
+    color: black;
+    font-family: 'Righteous', cursive;
+    font-size: 3vmax;
+}
+
+.text {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    color: white;
+    font-size: 2vmin;
+}
+
+.uptext {
+    padding: 3rem 10vw;
+    width: 55%;
+}
+
+.titleprojects {
+    font-size: 10vmin;
+    width: 100%;
+    font-weight: 500;
+}
+
+.Minidiv {
+    display: flex;
+    justify-content: space-between;
+    color: black;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+}
+
+.black {
+    color: black;
+}
+
+.btnblack {
+    border-color: black;
+}
+
+.un {
+    position: absolute;
+    height: 80vh;
+    left: 35vw;
+    top: 40vh;
+}
+
+h4 {
+    position: absolute;
+    left: 30vw;
+    top: 125vh;
+}
+
+.deux {
+    margin-top: 10vh;
+    margin-bottom: 0;
+    height: 80vmin;
+}
+
+.block {
+    display: flex;
+    top: 0;
+    margin-top: 5vh;
+}
+
+.cadre {
+    border-color: #000000;
+    border-style: solid;
+    border-width: 2rem;
+    height: 60vh;
+    width: 60vmax;
+    background-image: url("./assets/Bitodocus.png");
+    background-repeat: no-repeat;
+    background-position: top;
+    margin: 5vw;
+}
+
+.cadretxt {
+    width: 20vw;
+    padding: 5vw 0vmax;
+}
+
+.cadretxtdeux {
+    margin: 0 auto;
+    width: 70vw;
+    padding: 6vmax 5vmax;
+    padding-top: 3vmax;
+}
+
+#slider {
+    position: relative;
+    width: 80vw;
+    margin: auto;
+    display: flex;
+    align-items: center;
+}
+
+.slide {
+    width: 100%;
+
+    display: none;
+    animation-name: fade;
+    animation-duration: 1s;
+
+}
+
+.slideimg {
+    width: 100%;
+}
+
+.controls {
+    cursor: pointer;
+    transition: opacity 0.3s ease;
+    opacity: 0;
+    position: absolute;
+    font-size: 1rem;
+    color: rgba(220, 220, 220, 0.8);
+    background-color: rgba(0, 0, 0, 0.8);
+    padding: 10px;
+
+}
+
+.controls:hover {
+    background: white;
+    transition: 0.3s;
+    opacity: 1;
+}
+
+
+#left-arrow {
+    left: 10px;
+}
+
+#right-arrow {
+    right: 10px;
+}
